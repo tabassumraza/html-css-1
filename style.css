@@ -1,0 +1,191 @@
+/* body css */
+.box {
+
+        background-image: url("./images/background.jpg");
+        background-color: #cccccc;
+    width: 95%;
+    height:1800px;
+    /* background-color: rgb(226, 219, 200); */
+    margin:auto;
+    box-shadow:5px 6px 5px 5px rgb(168, 205, 214);
+}
+.navbar
+    {
+    width: 100%;
+    background: rgb(109, 101, 101);
+    height: 50px;
+    margin-top: 5%;
+    text-align: center;
+}
+a{
+        background-color: #293029; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+}
+ #blue {
+    width: 80%;
+    height: 200px;
+    /* background-color: rgb(47, 0, 255); */
+    margin :auto;
+    
+    display:flex;
+}
+#red{
+     width:80%;
+    height:300px;
+    /* background-color: rgb(210, 51, 30); */
+    margin:auto;
+    display:flex;
+    text-align: center;
+    font-size: large;
+    }
+    .right{
+        width:60%;
+    height:300px;
+    margin: 0% 0% 0% 50%;
+    }
+#pink{
+     width:80%;
+    height:300px;
+    /* background-color: rgb(210, 30, 171); */
+    margin:auto;
+    display:flex;
+    text-align: center;
+    }
+    .left{
+        width:60%;
+    height:300px;
+    margin: 0% 50% 0% 0%;
+    }
+.same{
+    width: 25%;
+    height:200px;
+    background-color: rgb(204, 209, 209);
+    color:rgb(8, 8, 8);
+    border: 1px solid;
+    border-radius: 5%;   
+    text-align: center;
+ }
+
+    h1 {
+        color:rgb(6, 1, 12);
+        font-size: 20px;
+        text-align: center;
+    }
+    b {
+        color: rgb(60, 157, 170);
+        font-size: 50px;
+    }
+    .sec{
+        display:flex;
+        color:rgb(22, 21, 17);
+    }
+    .same:hover{
+         color:rgb(105, 109, 109);
+    }
+   
+    .mainimage{
+        width: 40%;
+        height: 200px;
+        margin : 5% 5% 0% 30%;
+    }
+/* body css end */
+/* css for gallery */
+.gallery{
+  
+  height: 200px;
+  display: flex;
+  margin: auto;
+ 
+}
+.boxes{
+  width: 90%;
+  height: 200px;
+  border:solid #424443;
+
+}
+/* css location */
+.map
+{
+  width: 50%;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+}
+/* signup css :start */
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  width: 30%;
+  margin: auto;
+ 
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #424443;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+/* signup css end */
+/* css footer */
+footer{
+  width: 100%;
+  height: 50px;
+  background-color: #aeb3b0;
+  border: solid #585656;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 1%;
+  
+}
